@@ -1,0 +1,29 @@
+{
+  "name": "paypal-to-ynab",
+  "version": "1.0.0",
+  "description": "Converts paypal CSV to YNAB style CSV",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mansona/paypal-to-ynab.git"
+  },
+  "keywords": [
+    "ynab",
+    "paypal",
+    "csv"
+  ],
+  "author": "Chris Manson <chris@manson.ie>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mansona/paypal-to-ynab/issues"
+  },
+  "homepage": "https://github.com/mansona/paypal-to-ynab#readme",
+  "dependencies": {
+    "csv": "^0.4.6",
+    "fast-csv": "^0.6.0",
+    "minimist": "^1.2.0"
+  }
+}
